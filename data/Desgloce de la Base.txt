@@ -1,0 +1,87 @@
+usuarios
+canciones
+artistas
+albunes
+comentarios
+notificaciones 
+favoritos
+playlist
+seguidores
+compartir
+aplicaciones
+
+
+
+:::::::::::::::::::::::::::::::::::::  inicio ::::::::::::::::::::::::::::::::::::::::::::::
+playlist (las que se ha dado me gusta)
+generos (rock, pop, regaeton, salsa, etc...)
+playlist (deezer recomienda)
+playlist (seleccion de playlist)
+playlist (popular)
+playlist (lista de éxitos)
+playlist (nuevos lanzamientos)
+
+:::::::::::::::::::::::::::::::::::::  explorar ::::::::::::::::::::::::::::::::::::::::::::::
+destacados (éxitos , del momento , recientes, yec..)
+musica (todos los generos)
+momentos (playlist especiales, para hacer ejercicio, etc..)
+otros (infantiles, otros musica especial)
+
+:::::::::::::::::::::::::::::::::::::  recomendaciones ::::::::::::::::::::::::::::::::::::::::::::::
+album (genero musical de preferencias)
+album (genero musical de preferencias)
+album (genero musical de preferencias)
+.
+.
+.
+album (genero musical de preferencias)
+
+:::::::::::::::::::::::::::::::::::::  mi musica ::::::::::::::::::::::::::::::::::::::::::::::
+reproducciones recientes
+playlist
+albunes
+artistas
+podcast
+
+:::::::::::::::::::::::::::::::::::::  favoritas ::::::::::::::::::::::::::::::::::::::::::::::
+lista de canciones (tabla con la información)
+
+:::::::::::::::::::::::::::::::::::::  playlist ::::::::::::::::::::::::::::::::::::::::::::::
+crear
+playlist agregadas
+playlist recomendadas
+
+:::::::::::::::::::::::::::::::::::::  albumes ::::::::::::::::::::::::::::::::::::::::::::::
+albumes agregados
+albumes recomendados
+
+:::::::::::::::::::::::::::::::::::::  aplicaciones ::::::::::::::::::::::::::::::::::::::::::::::
+aplicaciones disponibles solo para premium (juegos, herramientas , etc..)
+
+:::::::::::::::::::::::::::::::::::::  formulario ::::::::::::::::::::::::::::::::::::::::::::::
+
+......paypal.......
+pais 
+no. de tarjeta
+vencimiento
+csc 
+no. telefonico
+direccion
+apartamento
+ciudad
+estado
+codigo postal
+correo
+contraseña
+
+......visa................
+nombre del titular
+numero tarjeta bancaria
+fecha de caducidad
+codigo de seguridad
+
+......american xpress.......
+nombre del titular
+numero tarjeta bancaria
+fecha de caducidad
+codigo de seguridad
