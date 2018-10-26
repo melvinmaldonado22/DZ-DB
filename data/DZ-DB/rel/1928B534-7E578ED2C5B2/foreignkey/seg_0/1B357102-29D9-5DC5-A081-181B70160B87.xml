@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B357102-29D9-5DC5-A081-181B70160B87" containerWithKeyObject="51905E2A-CC64-A512-3EF1-5D10426807C2" localFKIndex="2F63784D-4475-E0FF-6CF2-AD83FDB3A5D9" name="TBL_GENEROS_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:58:53 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_GENEROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>145C9B41-0E63-A950-BAC7-A4EBF6585B79</referredTableID>
+<keyObject>E56D7811-6473-E753-6D00-08D974FCE7C8</keyObject>
+<referredKeyID>E56D7811-6473-E753-6D00-08D974FCE7C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_GENERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

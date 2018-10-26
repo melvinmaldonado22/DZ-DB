@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D66AABB5-9C04-7D92-ECC6-07C6339F1A86" containerWithKeyObject="51905E2A-CC64-A512-3EF1-5D10426807C2" localFKIndex="DDF4D3D3-CE7D-0EE0-2BA5-8F759D50A976" name="TBL_LUGARES_FKv2">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:18:31 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_LUGARES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22466429-D3A9-E29F-02C4-AF511B13EDD8</referredTableID>
+<keyObject>42E73F5F-1A69-1F49-E0C9-E7D10F2F0E67</keyObject>
+<referredKeyID>42E73F5F-1A69-1F49-E0C9-E7D10F2F0E67</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_LUGAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

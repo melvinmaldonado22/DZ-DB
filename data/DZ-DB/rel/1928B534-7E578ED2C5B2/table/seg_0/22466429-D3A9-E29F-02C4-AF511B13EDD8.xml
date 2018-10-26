@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22466429-D3A9-E29F-02C4-AF511B13EDD8" name="TBL_LUGARES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:01:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="68D0BB70-A194-9D82-DAF1-2EB908A8CADC">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:01:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="A937BD87-7A02-61B6-FD7E-BF61278DD268">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:02:39 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9E8BAA-008A-6E95-6BC3-17121F698BA6" referredColumn="68D0BB70-A194-9D82-DAF1-2EB908A8CADC"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="96CFAD76-6516-B032-DDB0-1147E1FCE41A">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:15:36 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9E63996-C4B1-AF7D-ACEC-B577205E82C5" referredColumn="5AAC1088-6FC6-B508-10B4-7E408AEA4E7F"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="E8EF5647-2537-F896-80C4-9B6711BFD325">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:01:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="CF3A6A96-04E2-5066-B2A9-0F51F7DE9C3F">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:01:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="AC61014C-BA33-637D-DD6F-734CC9BED1E0">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:01:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="B9BABAE8-7FA4-32F9-F0AE-D270912597FD">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:01:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42E73F5F-1A69-1F49-E0C9-E7D10F2F0E67" name="TBL_LUGARES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:01:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68D0BB70-A194-9D82-DAF1-2EB908A8CADC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="621D035F-DE01-3F8B-F2C2-7A53B3F8F0E3" name="TBL_LUGARES_PADRE_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:02:39 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A937BD87-7A02-61B6-FD7E-BF61278DD268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CEE7211-B8CF-1F56-9E58-74956D603479" name="TBL_TIPOS_LUGARES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:15:36 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96CFAD76-6516-B032-DDB0-1147E1FCE41A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51585ABC-5040-5588-6920-AE2BBB03B989" name="TBL_COMENTARIOS">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:25:32 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="7B742C66-7B00-1AF7-CFFB-0150A66BC4D1">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:27:58 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_COMENTARIO_PADRE" id="5E33ED24-81E4-5239-B0DC-308EE1799FB9">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:56:28 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EA6E958-D883-B797-314E-D2905A832D60" referredColumn="7B742C66-7B00-1AF7-CFFB-0150A66BC4D1"/>
+</associations>
+</Column>
+<Column name="CODIGO_PLAYLIST" id="FCDD884B-0AD7-4734-1C9C-73D653026358">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:51:06 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66718925-E0D4-0A71-935B-CDAAE9592D99" referredColumn="BEA7C129-6113-E66F-894B-BDD980AE98A3"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="71E7E279-D478-31BA-A20A-E742D698E06A">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:28:08 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="075D7C32-0458-8E90-4653-20CE2278D535" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+<Column name="FECHA_CREACION" id="599D3FA4-A8B7-0FE8-F88B-CF3EA4CAF038">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:27:58 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="ECB3FD66-40F2-3252-CECA-0F91B2DC5517">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 06:00:05 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FB42031-FA1B-E2E9-12BA-A7AD6B03B899" name="TBL_COMENTARIOS_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:27:58 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B742C66-7B00-1AF7-CFFB-0150A66BC4D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A54EB2BF-2E30-2E85-1B8E-9D48F35583C3" name="TBL_USUARIOS_FKv3">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:28:08 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E7E279-D478-31BA-A20A-E742D698E06A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4313D0AC-153E-DC73-8704-467C6C04076B" name="TBL_PLAYLIST_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:51:06 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCDD884B-0AD7-4734-1C9C-73D653026358"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10AFE797-EBD1-9EBA-1DEF-A5B07DE969F1" name="TBL_COMENTARIOS_PADRE_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:56:28 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E33ED24-81E4-5239-B0DC-308EE1799FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

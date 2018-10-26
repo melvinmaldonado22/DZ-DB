@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="145C9B41-0E63-A950-BAC7-A4EBF6585B79" name="TBL_GENEROS">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:56:26 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO" id="65443B3C-745C-F0AF-6711-5DF893CDAAF3">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:58:21 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GENEROS" id="28BA7879-FBA4-650B-0E07-1BE7B2F45254">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:58:21 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREBIATURA" id="6F3BC358-824F-7A57-A1CB-06CAB2A5F872">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:58:21 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E56D7811-6473-E753-6D00-08D974FCE7C8" name="TBL_GENERO_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:58:21 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65443B3C-745C-F0AF-6711-5DF893CDAAF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

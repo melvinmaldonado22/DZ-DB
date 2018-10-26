@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F688DD6-A5E3-6EDD-E9A8-9A481032112F" name="TBL_PLAYLIST">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:46:07 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLAYLIST" id="BEA7C129-6113-E66F-894B-BDD980AE98A3">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:47:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_CREADOR" id="F7179945-C93B-4CF3-7050-9D2EB8D75F32">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:48:19 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93DA6B78-8E92-0675-7A91-4DA3780F9AF9" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+<Column name="NOMBRE_PLAYLIST" id="1AA34DBC-15BB-5B94-B1C4-B3323F7C2D2D">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:47:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="31C9C106-9164-D5C5-DA62-AF39ED47122D">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:47:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87C7279C-2358-DF98-CC36-212276945422" name="TBL_PLAYLIST_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:47:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEA7C129-6113-E66F-894B-BDD980AE98A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E80B84AB-3713-2DE7-AB5E-EC5A47934283" name="TBL_USUARIOS_FKv4">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:48:19 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7179945-C93B-4CF3-7050-9D2EB8D75F32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FB7E534-5B8F-AF2D-7C6A-50E12A2A05BE" name="TBL_USR_GRATUITO">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:48:58 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="8B3B1774-27F3-3F93-A820-3B661037D130">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:28:24 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AD4A687-E877-A9B6-1DDE-37DADFC281C5" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+<Column name="FECHA_CREACION" id="6D84218D-AFBE-4C31-3C8C-3C9C443A489E">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:50:12 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="195F3BCF-D2E5-F78C-1362-F9008525331D" name="TBL_USR_GRATUITO_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:50:12 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B3B1774-27F3-3F93-A820-3B661037D130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00FAF260-1ED5-4ECB-7AC0-15D9F01DA6C3" name="TBL_USUARIOS_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:28:24 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B3B1774-27F3-3F93-A820-3B661037D130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

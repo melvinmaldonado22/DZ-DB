@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="372EC425-1074-1173-614C-C2656FD0E1B9" name="TBL_TARJETAS">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:52:36 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TARJETA" id="7201460B-048C-EA78-54DA-FA9E11035009">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:51:47 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="323F0DAA-176B-D1CA-3E5A-4D704C2D6BAC">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:36:37 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A00C820F-2692-1DF6-1D8C-C3D35BAD6634" referredColumn="3B7952E4-2C83-31D7-4BBE-E967673F6A3D"/>
+</associations>
+</Column>
+<Column name="NOMBRE_TARJETA" id="ED9120F9-CD4F-1D3C-531C-5B39DA0DFD05">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:54:26 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_TARJETA" id="95623147-B005-478A-2629-9267B68BA4B3">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:54:26 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F8E6A05-14D6-031A-0B7A-F9E7CE41C336" name="TBL_TARJETAS_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:54:26 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7201460B-048C-EA78-54DA-FA9E11035009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="387E128A-AB0B-DC52-F787-431D9E1A2219" name="TBL_USR_PREMIUM_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:36:37 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="323F0DAA-176B-D1CA-3E5A-4D704C2D6BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

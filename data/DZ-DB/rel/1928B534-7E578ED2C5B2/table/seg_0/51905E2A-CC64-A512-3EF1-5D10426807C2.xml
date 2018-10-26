@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51905E2A-CC64-A512-3EF1-5D10426807C2" name="TBL_USUARIOS">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:45:00 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="66EE42F5-6117-5837-60DA-A0EDA46D75F7">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GENERO" id="20E882B8-261B-240C-C93A-3A8CC002FBCC">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:58:53 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B357102-29D9-5DC5-A081-181B70160B87" referredColumn="65443B3C-745C-F0AF-6711-5DF893CDAAF3"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_NACIO" id="862CBF4C-EE60-882C-42CC-4E4722F0F194">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:18:19 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="858BA246-7DA9-05E5-0752-DEED9F36766B" referredColumn="68D0BB70-A194-9D82-DAF1-2EB908A8CADC"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RECIDENCIA" id="4243B82D-9DF8-C5B6-C3D1-F886CE0F91BD">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:18:31 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D66AABB5-9C04-7D92-ECC6-07C6339F1A86" referredColumn="68D0BB70-A194-9D82-DAF1-2EB908A8CADC"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="F38A577B-A54E-7F4C-38E9-3862F34D81FC">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="D611FC1C-2B18-F573-01E7-5D035A6605A4">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="BBE5E442-5854-CB03-6848-1F29023611FF">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="12B67355-75E9-1AC2-9034-49F4F88F96BF">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="75E6FF8E-56D4-7CBC-370F-9EF415694F0C">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="28765D0C-FD1F-6428-9914-D325EB2476B4">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_PERFIL" id="105058AA-3BB6-59DB-E1AE-54564D54651D">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75156633-659F-EDE0-A147-C32F4FC32F1E" name="TBL_USUARIOS_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 03:47:51 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F63784D-4475-E0FF-6CF2-AD83FDB3A5D9" name="TBL_GENEROS_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 04:58:53 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20E882B8-261B-240C-C93A-3A8CC002FBCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DB66D83-FA52-C52F-CA0C-D540CE0EA148" name="TBL_LUGARES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:18:19 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="862CBF4C-EE60-882C-42CC-4E4722F0F194"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDF4D3D3-CE7D-0EE0-2BA5-8F759D50A976" name="TBL_LUGARES_FKv2">
+<createdBy>White</createdBy>
+<createdTime>2018-10-26 05:18:31 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4243B82D-9DF8-C5B6-C3D1-F886CE0F91BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
