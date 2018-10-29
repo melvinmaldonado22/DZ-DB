@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC858555-5F21-83CF-69D2-74CD8D4AA0C3" name="TBL_PREFERENCIAS">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:30:19 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PREFERENCIA" id="6D1C8CB3-8EAF-0844-2FBE-F663911A7B0D">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:31:15 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PREFERENCIA" id="EE7E477F-CC6F-63F0-12EC-3E319D4D810D">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:31:15 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="918330E7-E623-C5B5-F08A-09E3C678413D" name="TBL_PREFERENCIAS_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:31:15 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D1C8CB3-8EAF-0844-2FBE-F663911A7B0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

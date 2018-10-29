@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDA9BAFC-5263-7972-3C95-2AB2B6431870" containerWithKeyObject="534A74BE-1699-2EE6-001F-41C9F54AEECA" localFKIndex="35301685-A0A6-422B-707B-83FA874F56F9" name="TBL_CALIDADES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:03:59 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_CALIDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>34F27634-3981-D13D-1A3A-5273003030BB</referredTableID>
+<keyObject>F5F3B10B-366C-153A-7FA9-290BEC2DC4A4</keyObject>
+<referredKeyID>F5F3B10B-366C-153A-7FA9-290BEC2DC4A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CALIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

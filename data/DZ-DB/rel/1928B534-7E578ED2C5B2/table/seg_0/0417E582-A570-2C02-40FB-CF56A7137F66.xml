@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0417E582-A570-2C02-40FB-CF56A7137F66" name="TBL_TIPO_REACCION">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:18:09 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_REACCION" id="8C04CFB6-3518-4FBC-E96A-9366AC9432C5">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:21:37 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_REACCION" id="E7BAA619-137D-812C-0E2B-20BA422CE7F6">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:21:37 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO_REACCION" id="E6256902-95FD-517F-F90D-056056C3CBA4">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:21:37 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3152BA4D-A930-D911-B02E-F2F61AB3A203" name="TBL_TIPO_REACCION_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:21:37 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C04CFB6-3518-4FBC-E96A-9366AC9432C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66718925-E0D4-0A71-935B-CDAAE9592D99" containerWithKeyObject="51585ABC-5040-5588-6920-AE2BBB03B989" localFKIndex="4313D0AC-153E-DC73-8704-467C6C04076B" name="TBL_PLAYLIST_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5456982A-D733-0526-1318-85AB8758B751" containerWithKeyObject="0A0EA2E4-0269-75EC-8D39-7EBC7BBA8535" localFKIndex="832F4E81-BA41-A26C-1FA9-7C582C0D44F6" name="TBL_PLAYLIST_FKv2">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:51:06 UTC</createdTime>
+<createdTime>2018-10-28 18:02:55 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <referredTableLongName>TBL_PLAYLIST</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>1F688DD6-A5E3-6EDD-E9A8-9A481032112F</referredTableID>
 <keyObject>87C7279C-2358-DF98-CC36-212276945422</keyObject>
 <referredKeyID>87C7279C-2358-DF98-CC36-212276945422</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>CODIGO_PLAYLIST</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

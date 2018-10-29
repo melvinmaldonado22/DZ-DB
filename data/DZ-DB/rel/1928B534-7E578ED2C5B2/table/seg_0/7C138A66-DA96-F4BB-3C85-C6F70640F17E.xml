@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C138A66-DA96-F4BB-3C85-C6F70640F17E" name="TBL_PREFERENCIASXUSUARIO">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:31:41 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PREFERENCIA" id="79C1A365-8EB0-D490-EC37-C7AD872862EC">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:32:03 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="306563F7-D84F-D28E-E495-82075C276570" referredColumn="6D1C8CB3-8EAF-0844-2FBE-F663911A7B0D"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="86132176-8C7F-3A43-DFC5-4C9AA18C0275">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:32:15 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60C40A8E-1559-EAAA-ADC9-86E336DE1FDB" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED14B251-F549-A26F-DF0E-DD801E1BF166" name="TBL_PREFERENCIASXUSUARIO_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:34:05 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86132176-8C7F-3A43-DFC5-4C9AA18C0275"/>
+<colUsage columnID="79C1A365-8EB0-D490-EC37-C7AD872862EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A4A0B1E-3273-B50B-CD03-01669D52AD5B" name="TBL_PREFERENCIAS_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:32:03 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C1A365-8EB0-D490-EC37-C7AD872862EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2DFEE3C-F3EB-D60F-3498-46C0ABA99CD4" name="TBL_USUARIOS_FKv15">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:32:15 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86132176-8C7F-3A43-DFC5-4C9AA18C0275"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

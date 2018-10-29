@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="306563F7-D84F-D28E-E495-82075C276570" containerWithKeyObject="7C138A66-DA96-F4BB-3C85-C6F70640F17E" localFKIndex="1A4A0B1E-3273-B50B-CD03-01669D52AD5B" name="TBL_PREFERENCIAS_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:32:03 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_PREFERENCIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC858555-5F21-83CF-69D2-74CD8D4AA0C3</referredTableID>
+<keyObject>918330E7-E623-C5B5-F08A-09E3C678413D</keyObject>
+<referredKeyID>918330E7-E623-C5B5-F08A-09E3C678413D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PREFERENCIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

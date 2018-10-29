@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2BBFF54-9D7B-6864-BC3A-29EB65BB568D" containerWithKeyObject="08BC9BC7-FAEC-EFA6-FCD3-0B76F1C280CF" localFKIndex="B5F748F3-5B53-81E5-B2F5-F527EF582EB5" name="TBL_TIPO_REACCION_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:21:52 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_TIPO_REACCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0417E582-A570-2C02-40FB-CF56A7137F66</referredTableID>
+<keyObject>3152BA4D-A930-D911-B02E-F2F61AB3A203</keyObject>
+<referredKeyID>3152BA4D-A930-D911-B02E-F2F61AB3A203</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_REACCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

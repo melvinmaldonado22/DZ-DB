@@ -12,13 +12,15 @@
 <createdBy>White</createdBy>
 <createdTime>2018-10-26 04:51:47 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CODIGO_USUARIO" id="323F0DAA-176B-D1CA-3E5A-4D704C2D6BAC">
+<Column name="CODIGO_USUARIO_PREMIUM" id="8B2CACF7-248E-5EED-3C80-E7216F95B212">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 04:36:37 UTC</createdTime>
+<createdTime>2018-10-28 21:00:45 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -27,7 +29,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A00C820F-2692-1DF6-1D8C-C3D35BAD6634" referredColumn="3B7952E4-2C83-31D7-4BBE-E967673F6A3D"/>
+<colAssociation fkAssociation="08D3D67A-CE69-C275-A015-50991E61A641" referredColumn="3B7952E4-2C83-31D7-4BBE-E967673F6A3D"/>
 </associations>
 </Column>
 <Column name="NOMBRE_TARJETA" id="ED9120F9-CD4F-1D3C-531C-5B39DA0DFD05">
@@ -67,14 +69,14 @@
 <colUsage columnID="7201460B-048C-EA78-54DA-FA9E11035009"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="387E128A-AB0B-DC52-F787-431D9E1A2219" name="TBL_USR_PREMIUM_FK">
+<ind_PK_UK id="BA28ECFC-0E98-443E-3989-49B33719304C" name="TBL_USR_PREMIUM_FK">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 04:36:37 UTC</createdTime>
+<createdTime>2018-10-28 21:00:45 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="323F0DAA-176B-D1CA-3E5A-4D704C2D6BAC"/>
+<colUsage columnID="8B2CACF7-248E-5EED-3C80-E7216F95B212"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

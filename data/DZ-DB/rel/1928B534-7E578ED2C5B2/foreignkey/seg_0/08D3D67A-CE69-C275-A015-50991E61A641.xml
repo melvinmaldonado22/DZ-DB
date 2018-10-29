@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A00C820F-2692-1DF6-1D8C-C3D35BAD6634" containerWithKeyObject="372EC425-1074-1173-614C-C2656FD0E1B9" localFKIndex="387E128A-AB0B-DC52-F787-431D9E1A2219" name="TBL_USR_PREMIUM_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="08D3D67A-CE69-C275-A015-50991E61A641" containerWithKeyObject="372EC425-1074-1173-614C-C2656FD0E1B9" localFKIndex="BA28ECFC-0E98-443E-3989-49B33719304C" name="TBL_USR_PREMIUM_FK">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 04:36:37 UTC</createdTime>
+<createdTime>2018-10-28 21:00:45 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <referredTableLongName>TBL_USR_PREMIUM</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

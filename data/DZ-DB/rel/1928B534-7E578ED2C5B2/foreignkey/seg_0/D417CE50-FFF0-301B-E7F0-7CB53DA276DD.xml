@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D417CE50-FFF0-301B-E7F0-7CB53DA276DD" containerWithKeyObject="43E137DC-6F2E-A282-59E0-CB1E2A4F8857" localFKIndex="AADBA0BB-C143-7054-8B45-E57D78E4F7A1" name="TBL_ESTADOS_NOTI_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:47:23 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_ESTADOS_NOTI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDA5F0DD-6699-B7AB-78DC-A68A55E950B3</referredTableID>
+<keyObject>C061D0F4-107A-930E-2A00-77A9CF9FC701</keyObject>
+<referredKeyID>C061D0F4-107A-930E-2A00-77A9CF9FC701</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO_NOTI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

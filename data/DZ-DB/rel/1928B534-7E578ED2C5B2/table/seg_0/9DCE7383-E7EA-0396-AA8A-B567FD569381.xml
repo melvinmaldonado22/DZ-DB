@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51585ABC-5040-5588-6920-AE2BBB03B989" name="TBL_COMENTARIOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DCE7383-E7EA-0396-AA8A-B567FD569381" name="TBL_COMPARTIDOS">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:25:32 UTC</createdTime>
+<createdTime>2018-10-28 22:40:55 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
-<ordsAlias>table_16</ordsAlias>
+<ordsAlias>table_37</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_COMENTARIO" id="7B742C66-7B00-1AF7-CFFB-0150A66BC4D1">
+<Column name="CODIGO_COMPARTIDO" id="73B4F2B1-346A-4F11-063E-29602163CA8C">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:27:58 UTC</createdTime>
+<createdTime>2018-10-28 22:41:40 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CODIGO_COMENTARIO_PADRE" id="5E33ED24-81E4-5239-B0DC-308EE1799FB9">
+<Column name="CODIGO_USUARIO" id="448A8C9E-EDEB-2491-38F1-A7A9799C6006">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:56:28 UTC</createdTime>
+<createdTime>2018-10-28 22:42:46 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D598C4D8-E81C-EC99-6B3B-2888A35EFD88" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ALBUM" id="B7380745-E4A9-2C61-D6AA-672070E02D24">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:41:53 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,12 +44,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3EA6E958-D883-B797-314E-D2905A832D60" referredColumn="7B742C66-7B00-1AF7-CFFB-0150A66BC4D1"/>
+<colAssociation fkAssociation="FE7FCDA1-D3C3-78E9-27B6-B76A6BB377E6" referredColumn="49740519-A015-9109-8400-10CECE54BD24"/>
 </associations>
 </Column>
-<Column name="CODIGO_PLAYLIST" id="FCDD884B-0AD7-4734-1C9C-73D653026358">
+<Column name="CODIGO_PLAYLIST" id="E7ECEC3A-A41D-EBFE-581C-CA1695BA9AB1">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:51:06 UTC</createdTime>
+<createdTime>2018-10-28 22:42:04 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,26 +59,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="66718925-E0D4-0A71-935B-CDAAE9592D99" referredColumn="BEA7C129-6113-E66F-894B-BDD980AE98A3"/>
+<colAssociation fkAssociation="94DEB347-7578-266E-7AC2-71F71610D680" referredColumn="BEA7C129-6113-E66F-894B-BDD980AE98A3"/>
 </associations>
 </Column>
-<Column name="CODIGO_USUARIO" id="71E7E279-D478-31BA-A20A-E742D698E06A">
+<Column name="CODIGO_CANCION" id="B398A20C-1FE5-0CAF-77A3-C95F4347F32A">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:28:08 UTC</createdTime>
-<ownerDesignName>DZ-DB</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="075D7C32-0458-8E90-4653-20CE2278D535" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
-</associations>
-</Column>
-<Column name="CODIGO_ALBUM" id="0D054B15-B313-D592-F7FD-387992965F58">
-<createdBy>White</createdBy>
-<createdTime>2018-10-28 18:10:09 UTC</createdTime>
+<createdTime>2018-10-28 22:42:18 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,12 +74,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FAD0F76F-F9BD-5EC9-CCD2-8E17A7F75BB4" referredColumn="49740519-A015-9109-8400-10CECE54BD24"/>
+<colAssociation fkAssociation="43851ACC-C3EF-7C13-6997-C4A831EF8C0A" referredColumn="43ABEF6D-D33F-B0A1-4FA9-51FF7C4D4A74"/>
 </associations>
 </Column>
-<Column name="CODIGO_APLICACION" id="20AD5F03-7E46-E8C1-948F-B90070EB8F46">
+<Column name="CODIGO_APLICACION" id="E3246788-2FFA-FC3A-387C-1AEAA9DD7FC6">
 <createdBy>White</createdBy>
-<createdTime>2018-10-28 22:35:43 UTC</createdTime>
+<createdTime>2018-10-28 22:42:36 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,12 +89,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="042AF8B0-E6B7-01B8-DF2F-5A6D679A050F" referredColumn="1E082D00-880B-13EB-2792-63F6656189E6"/>
+<colAssociation fkAssociation="3448F0FA-3E1C-AB34-CAF1-FE6528066467" referredColumn="1E082D00-880B-13EB-2792-63F6656189E6"/>
 </associations>
 </Column>
-<Column name="FECHA_CREACION" id="599D3FA4-A8B7-0FE8-F88B-CF3EA4CAF038">
+<Column name="FECHA_COMPARTIO" id="ED3EC3FD-3A82-19CE-609C-95123C5145DF">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:27:58 UTC</createdTime>
+<createdTime>2018-10-28 22:41:40 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,78 +103,67 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMENTARIO" id="ECB3FD66-40F2-3252-CECA-0F91B2DC5517">
-<createdBy>White</createdBy>
-<createdTime>2018-10-26 06:00:05 UTC</createdTime>
-<ownerDesignName>DZ-DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6FB42031-FA1B-E2E9-12BA-A7AD6B03B899" name="TBL_COMENTARIOS_PK">
+<ind_PK_UK id="E5A7BD8A-E2D3-0EB3-D320-051B125DB119" name="TBL_COMPARTIDOS_PK">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:27:58 UTC</createdTime>
+<createdTime>2018-10-28 22:41:40 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7B742C66-7B00-1AF7-CFFB-0150A66BC4D1"/>
+<colUsage columnID="73B4F2B1-346A-4F11-063E-29602163CA8C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A54EB2BF-2E30-2E85-1B8E-9D48F35583C3" name="TBL_USUARIOS_FKv3">
+<ind_PK_UK id="AB3F14A9-BD3E-9341-2C19-168835DE9F73" name="TBL_ALBUMES_FKv6">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:28:08 UTC</createdTime>
+<createdTime>2018-10-28 22:41:53 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="71E7E279-D478-31BA-A20A-E742D698E06A"/>
+<colUsage columnID="B7380745-E4A9-2C61-D6AA-672070E02D24"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4313D0AC-153E-DC73-8704-467C6C04076B" name="TBL_PLAYLIST_FK">
+<ind_PK_UK id="A6727579-2249-D992-DE45-011745515CDF" name="TBL_PLAYLIST_FKv5">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:51:06 UTC</createdTime>
+<createdTime>2018-10-28 22:42:04 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FCDD884B-0AD7-4734-1C9C-73D653026358"/>
+<colUsage columnID="E7ECEC3A-A41D-EBFE-581C-CA1695BA9AB1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="10AFE797-EBD1-9EBA-1DEF-A5B07DE969F1" name="TBL_COMENTARIOS_PADRE_FK">
+<ind_PK_UK id="E1C2AF89-6009-F496-C58E-5E2D096AC0DD" name="TBL_CANCIONES_FKv6">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:56:28 UTC</createdTime>
+<createdTime>2018-10-28 22:42:18 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5E33ED24-81E4-5239-B0DC-308EE1799FB9"/>
+<colUsage columnID="B398A20C-1FE5-0CAF-77A3-C95F4347F32A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F0396D26-C717-4384-AE1C-C523D48B4C34" name="TBL_ALBUMES_FKv2">
+<ind_PK_UK id="085EAE7F-310A-2BF7-673B-360E065C9D80" name="TBL_APLICACIONES_FKv4">
 <createdBy>White</createdBy>
-<createdTime>2018-10-28 18:10:09 UTC</createdTime>
+<createdTime>2018-10-28 22:42:36 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0D054B15-B313-D592-F7FD-387992965F58"/>
+<colUsage columnID="E3246788-2FFA-FC3A-387C-1AEAA9DD7FC6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CDEFA855-2B2A-B107-D38F-DE499AA575AE" name="TBL_APLICACIONES_FKv3">
+<ind_PK_UK id="5F241436-621A-D25E-AFA9-9DD8402E7514" name="TBL_USUARIOS_FKv16">
 <createdBy>White</createdBy>
-<createdTime>2018-10-28 22:35:43 UTC</createdTime>
+<createdTime>2018-10-28 22:42:46 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="20AD5F03-7E46-E8C1-948F-B90070EB8F46"/>
+<colUsage columnID="448A8C9E-EDEB-2491-38F1-A7A9799C6006"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

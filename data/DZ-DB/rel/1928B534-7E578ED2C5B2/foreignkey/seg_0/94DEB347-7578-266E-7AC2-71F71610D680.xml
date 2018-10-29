@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66718925-E0D4-0A71-935B-CDAAE9592D99" containerWithKeyObject="51585ABC-5040-5588-6920-AE2BBB03B989" localFKIndex="4313D0AC-153E-DC73-8704-467C6C04076B" name="TBL_PLAYLIST_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94DEB347-7578-266E-7AC2-71F71610D680" containerWithKeyObject="9DCE7383-E7EA-0396-AA8A-B567FD569381" localFKIndex="A6727579-2249-D992-DE45-011745515CDF" name="TBL_PLAYLIST_FKv5">
 <createdBy>White</createdBy>
-<createdTime>2018-10-26 05:51:06 UTC</createdTime>
+<createdTime>2018-10-28 22:42:04 UTC</createdTime>
 <ownerDesignName>DZ-DB</ownerDesignName>
 <referredTableLongName>TBL_PLAYLIST</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

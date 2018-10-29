@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6633EB7-6A1B-908C-E242-760FB9F7B7C9" name="TBL_PUNTUACIONESXUSUARIO">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:23:39 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="A4C36AE0-AF51-0B64-8CBC-EAA604376AB0">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:24:31 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="365D53AF-6DD9-C4EA-7D50-86973B478463" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUNTUACION" id="723EEE54-1D26-BBFD-725C-5F1B194D75D5">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:24:41 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="273C4FEA-2672-B67C-2F46-F83E1E7E1490" referredColumn="7FD13A9D-EA5C-5CDE-5147-892E939F3C1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03310BB6-0BB7-F546-AEA1-F899734EB9A7" name="TBL_PUNTUACIONESXUSUARIO_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:25:18 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="723EEE54-1D26-BBFD-725C-5F1B194D75D5"/>
+<colUsage columnID="A4C36AE0-AF51-0B64-8CBC-EAA604376AB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FEFBCD8-BBE5-E0E1-E28D-55D78DF93C82" name="TBL_USUARIOS_FKv14">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:24:31 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4C36AE0-AF51-0B64-8CBC-EAA604376AB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F03A5FC9-159E-8B3D-56D2-52C934259585" name="TBL_PUNTUACIONES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:24:41 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="723EEE54-1D26-BBFD-725C-5F1B194D75D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

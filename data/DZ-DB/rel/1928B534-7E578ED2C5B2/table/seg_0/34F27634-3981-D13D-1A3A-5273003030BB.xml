@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34F27634-3981-D13D-1A3A-5273003030BB" name="TBL_CALIDADES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:02:17 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CALIDAD" id="CFEFE644-0540-8D35-0D33-28D2F52F9857">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:03:12 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CALIDAD" id="13DB1EBC-A458-DEBD-C485-9E4934A18764">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:03:12 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5F3B10B-366C-153A-7FA9-290BEC2DC4A4" name="TBL_CALIDADES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:03:15 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFEFE644-0540-8D35-0D33-28D2F52F9857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

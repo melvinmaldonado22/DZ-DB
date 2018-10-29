@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8DBAFDE6-B2B5-F99B-7FA6-A072BBB76283" containerWithKeyObject="3C13B97F-70CF-1DC4-B267-6E840E040F83" localFKIndex="C19184AA-31BD-5343-428F-E1FB55CA29D7" name="TBL_DESARROLLADORES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:17:22 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_DESARROLLADORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>912F5B26-8E9C-4E16-613A-06053002DC0F</referredTableID>
+<keyObject>55B9D1FA-3A0F-D163-6771-631FABC49395</keyObject>
+<referredKeyID>55B9D1FA-3A0F-D163-6771-631FABC49395</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_DESARROLLADOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

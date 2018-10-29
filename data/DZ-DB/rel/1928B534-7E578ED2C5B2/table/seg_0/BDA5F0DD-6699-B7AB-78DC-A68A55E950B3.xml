@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDA5F0DD-6699-B7AB-78DC-A68A55E950B3" name="TBL_ESTADOS_NOTI">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:46:15 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_NOTI" id="AECD2A0E-8311-5AB8-AA63-2BE67C51EF90">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:47:14 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_NOTI" id="78DDE130-B28C-2EA8-2593-550166412E14">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:47:14 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C061D0F4-107A-930E-2A00-77A9CF9FC701" name="TBL_ESTADOS_NOTI_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:47:14 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AECD2A0E-8311-5AB8-AA63-2BE67C51EF90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

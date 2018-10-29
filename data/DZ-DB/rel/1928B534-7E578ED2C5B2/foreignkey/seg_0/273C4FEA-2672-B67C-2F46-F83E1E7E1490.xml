@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="273C4FEA-2672-B67C-2F46-F83E1E7E1490" containerWithKeyObject="B6633EB7-6A1B-908C-E242-760FB9F7B7C9" localFKIndex="F03A5FC9-159E-8B3D-56D2-52C934259585" name="TBL_PUNTUACIONES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:24:41 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_PUNTUACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D11F7D04-16AE-D1A5-5675-C81B6DF9B693</referredTableID>
+<keyObject>A4A8298D-9C6E-79CA-AB6E-E2C8AF0A60D5</keyObject>
+<referredKeyID>A4A8298D-9C6E-79CA-AB6E-E2C8AF0A60D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PUNTUACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A0EA2E4-0269-75EC-8D39-7EBC7BBA8535" name="TBL_CANCIONESXPLAYLIST">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:01:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CANCION" id="BFE2FBE5-2457-B2EA-7532-244F427AE5A6">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:02:43 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4884EB86-6312-19FD-0A11-6B9C23E15A85" referredColumn="43ABEF6D-D33F-B0A1-4FA9-51FF7C4D4A74"/>
+</associations>
+</Column>
+<Column name="CODIGO_PLAYLIST" id="36955B7E-1B30-8B16-ADBD-0DDD65D0CF97">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:02:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5456982A-D733-0526-1318-85AB8758B751" referredColumn="BEA7C129-6113-E66F-894B-BDD980AE98A3"/>
+</associations>
+</Column>
+<Column name="FECHA_INSERCION" id="AD60F68A-026D-AD50-7B12-6AAE7639A44B">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:02:36 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7E32E90-2B72-3DF6-71C0-5463752004B6" name="TBL_CANCIONESXPLAYLIST_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 19:57:33 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFE2FBE5-2457-B2EA-7532-244F427AE5A6"/>
+<colUsage columnID="36955B7E-1B30-8B16-ADBD-0DDD65D0CF97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C2F59C5-3468-4571-46E3-6F7485C48C84" name="TBL_CANCIONES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:02:43 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFE2FBE5-2457-B2EA-7532-244F427AE5A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="832F4E81-BA41-A26C-1FA9-7C582C0D44F6" name="TBL_PLAYLIST_FKv2">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:02:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36955B7E-1B30-8B16-ADBD-0DDD65D0CF97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

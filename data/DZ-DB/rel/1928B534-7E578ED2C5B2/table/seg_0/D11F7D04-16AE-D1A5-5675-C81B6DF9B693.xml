@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D11F7D04-16AE-D1A5-5675-C81B6DF9B693" name="TBL_PUNTUACIONES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:19:26 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUNTUACION" id="7FD13A9D-EA5C-5CDE-5147-892E939F3C1E">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:20:23 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_PUNTUACION" id="9F9F7419-4B74-B349-68EE-549A385E95EC">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:20:23 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PUNTUACION" id="9246C313-702C-13FE-603D-13666D5F19A2">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:20:23 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4A8298D-9C6E-79CA-AB6E-E2C8AF0A60D5" name="TBL_PUNTUACIONES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:20:23 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FD13A9D-EA5C-5CDE-5147-892E939F3C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

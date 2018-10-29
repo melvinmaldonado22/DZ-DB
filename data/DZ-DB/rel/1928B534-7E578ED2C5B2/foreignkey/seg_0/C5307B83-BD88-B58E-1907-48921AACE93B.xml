@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5307B83-BD88-B58E-1907-48921AACE93B" containerWithKeyObject="284A6772-651F-DD8C-5423-217441D8F8C8" localFKIndex="433D98EA-FBB4-F456-E560-B3A6E2172539" name="TBL_APLICACIONES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:13:21 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_APLICACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C13B97F-70CF-1DC4-B267-6E840E040F83</referredTableID>
+<keyObject>818791B1-4BB7-98AC-C848-EDD1DB33FCC1</keyObject>
+<referredKeyID>818791B1-4BB7-98AC-C848-EDD1DB33FCC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_APLICACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -22,6 +22,17 @@
 <colAssociation fkAssociation="4AD4A687-E877-A9B6-1DDE-37DADFC281C5" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
 </associations>
 </Column>
+<Column name="DIAS_DE_PRUEBA" id="CD333D62-9FFF-5AA0-15B9-0C7B313E74ED">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:58:31 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="FECHA_CREACION" id="6D84218D-AFBE-4C31-3C8C-3C9C443A489E">
 <createdBy>White</createdBy>
 <createdTime>2018-10-26 03:50:12 UTC</createdTime>

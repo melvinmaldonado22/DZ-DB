@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="912F5B26-8E9C-4E16-613A-06053002DC0F" name="TBL_DESARROLLADORES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:16:13 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DESARROLLADOR" id="C78CEAD4-4942-8DB8-8028-FBBB1B2CAFFE">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:17:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DESARROLLADOR" id="15C788AB-BFC9-013A-1F52-3DE57CBFB0CD">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:17:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55B9D1FA-3A0F-D163-6771-631FABC49395" name="TBL_DESARROLLADORES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:17:06 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C78CEAD4-4942-8DB8-8028-FBBB1B2CAFFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

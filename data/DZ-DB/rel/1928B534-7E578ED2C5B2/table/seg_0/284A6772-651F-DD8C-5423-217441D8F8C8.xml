@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="284A6772-651F-DD8C-5423-217441D8F8C8" name="TBL_APPXUSUARIO">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:12:18 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="E32C1664-0400-81AA-F2A0-DBB70479F14A">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:13:11 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E0492FD-2E00-F334-AAF0-F42CC0EFA9DB" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_APLICACION" id="57CE2B55-44D0-F2AF-FFA1-3A04B3258BF5">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:13:21 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5307B83-BD88-B58E-1907-48921AACE93B" referredColumn="1E082D00-880B-13EB-2792-63F6656189E6"/>
+</associations>
+</Column>
+<Column name="FECHA_DESCARGO" id="828DA4A4-BFBD-C4E4-6B82-B189A3005CB9">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:13:03 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E0DD508-C59A-F418-8D38-E2A3B4DF76DC" name="TBL_APPXUSUARIO_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:14:45 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E32C1664-0400-81AA-F2A0-DBB70479F14A"/>
+<colUsage columnID="57CE2B55-44D0-F2AF-FFA1-3A04B3258BF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D216D3E-29EB-E464-FC4C-1B0341618470" name="TBL_USUARIOS_FKv13">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:13:11 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E32C1664-0400-81AA-F2A0-DBB70479F14A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="433D98EA-FBB4-F456-E560-B3A6E2172539" name="TBL_APLICACIONES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:13:21 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57CE2B55-44D0-F2AF-FFA1-3A04B3258BF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

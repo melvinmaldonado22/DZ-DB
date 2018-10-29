@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAD0F76F-F9BD-5EC9-CCD2-8E17A7F75BB4" containerWithKeyObject="51585ABC-5040-5588-6920-AE2BBB03B989" localFKIndex="F0396D26-C717-4384-AE1C-C523D48B4C34" name="TBL_ALBUMES_FKv2">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 18:10:09 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<referredTableLongName>TBL_ALBUMES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48CA849B-9BEC-7CC7-33DE-2840996F9AF8</referredTableID>
+<keyObject>5BD4EA79-B96D-7E83-DBD5-22DA65862B9F</keyObject>
+<referredKeyID>5BD4EA79-B96D-7E83-DBD5-22DA65862B9F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_ALBUM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

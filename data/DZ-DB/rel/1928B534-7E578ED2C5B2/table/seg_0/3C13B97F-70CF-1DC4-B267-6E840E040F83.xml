@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C13B97F-70CF-1DC4-B267-6E840E040F83" name="TBL_APLICACIONES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:06:44 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_APLICACION" id="1E082D00-880B-13EB-2792-63F6656189E6">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:08:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_DESARROLLADOR" id="3E69F8CC-9364-60E8-3A4A-DFBD307A38D2">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:17:22 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DBAFDE6-B2B5-F99B-7FA6-A072BBB76283" referredColumn="C78CEAD4-4942-8DB8-8028-FBBB1B2CAFFE"/>
+</associations>
+</Column>
+<Column name="DESCARGA_POR_USUARIO" id="0E454BFD-BC1A-610F-3CDD-DCB4F31AD56C">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:08:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="06CFB225-6D47-B027-5A13-69CC3A8AEF80">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:08:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMEDIO_APP" id="864031F1-0134-E125-AF56-CF0F5CC49915">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:08:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_LANZAMIENTO" id="E6C80FAE-5806-0069-9230-22AAC973E751">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:08:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO" id="90B6DC3D-63BA-6363-0BD9-B2988E7EA505">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:08:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="818791B1-4BB7-98AC-C848-EDD1DB33FCC1" name="TBL_APLICACIONES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:08:55 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E082D00-880B-13EB-2792-63F6656189E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C19184AA-31BD-5343-428F-E1FB55CA29D7" name="TBL_DESARROLLADORES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 22:17:22 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E69F8CC-9364-60E8-3A4A-DFBD307A38D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

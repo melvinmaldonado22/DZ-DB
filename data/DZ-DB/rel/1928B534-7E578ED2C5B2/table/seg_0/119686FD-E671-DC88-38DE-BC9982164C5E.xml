@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="119686FD-E671-DC88-38DE-BC9982164C5E" name="TBL_GENEROS_MUSICALES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 19:00:07 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO_MUSICAL" id="DB53EA21-C326-FE51-C59A-1822C6680C51">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 19:01:27 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GENERO_MUSICAL" id="CF48FF70-8EA0-5061-9372-CBF4BEBEE016">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 19:01:27 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="315B09DC-E276-0D6B-75F4-C59E71E7CC0A" name="TBL_GENEROS_MUSICALES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 19:01:27 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB53EA21-C326-FE51-C59A-1822C6680C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

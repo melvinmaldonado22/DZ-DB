@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43E137DC-6F2E-A282-59E0-CB1E2A4F8857" name="TBL_NOTIFICACIONES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:43:13 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_NOTIFICACION" id="3AFE99C4-81A7-FFED-3672-18182E4B8597">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:44:28 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="8549CE3A-4C5C-7176-4933-9170FE04B50D">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:44:34 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38DA5948-FEDB-0D7E-EA31-D00A7609D5DF" referredColumn="66EE42F5-6117-5837-60DA-A0EDA46D75F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_NOTI" id="3B6DA50E-73EF-8535-2132-90CA45E06E72">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:47:23 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D417CE50-FFF0-301B-E7F0-7CB53DA276DD" referredColumn="AECD2A0E-8311-5AB8-AA63-2BE67C51EF90"/>
+</associations>
+</Column>
+<Column name="ASUNTO" id="661F9AAF-1457-BCB1-0D20-47E3D6E10D3C">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:44:28 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NOTIFICACION" id="C8391DE7-E7E6-4747-9D95-2F9B6695AED2">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:44:28 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="469818BE-24A9-4BD6-7F5F-6C7B7D171A8F" name="TBL_NOTIFICACIONES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:44:28 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AFE99C4-81A7-FFED-3672-18182E4B8597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACB09436-3D7E-28CF-4298-0D3BD152D01E" name="TBL_USUARIOS_FKv8">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:44:34 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8549CE3A-4C5C-7176-4933-9170FE04B50D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AADBA0BB-C143-7054-8B45-E57D78E4F7A1" name="TBL_ESTADOS_NOTI_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:47:23 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B6DA50E-73EF-8535-2132-90CA45E06E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

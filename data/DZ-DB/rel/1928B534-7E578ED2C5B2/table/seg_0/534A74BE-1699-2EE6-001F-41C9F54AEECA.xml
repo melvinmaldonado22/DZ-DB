@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="534A74BE-1699-2EE6-001F-41C9F54AEECA" name="TBL_CALIDADESXCONCIONES">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:03:34 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CALIDAD" id="89900B73-476C-AEB5-5AC1-07933C9F2920">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:03:59 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDA9BAFC-5263-7972-3C95-2AB2B6431870" referredColumn="CFEFE644-0540-8D35-0D33-28D2F52F9857"/>
+</associations>
+</Column>
+<Column name="CODIGO_CANCION" id="93989EF9-5F3C-CDD1-7509-4D68D6F1F993">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:04:07 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDDD9689-4C47-FF2E-B310-B072E3A091B9" referredColumn="43ABEF6D-D33F-B0A1-4FA9-51FF7C4D4A74"/>
+</associations>
+</Column>
+<Column name="CODIGO_MP3" id="4E0C6604-8108-5A96-DE9D-79B9BB3CAC07">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:20:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BE91229-E44C-CB8A-A281-5DC6B288564D" referredColumn="7D4B12E1-9374-8F87-EAE1-E45DEB537171"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7189FCEF-E421-D316-29D6-2678B1A0C744" name="TBL_CALIDADESXCONCIONES_PK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:05:04 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89900B73-476C-AEB5-5AC1-07933C9F2920"/>
+<colUsage columnID="93989EF9-5F3C-CDD1-7509-4D68D6F1F993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35301685-A0A6-422B-707B-83FA874F56F9" name="TBL_CALIDADES_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:03:59 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89900B73-476C-AEB5-5AC1-07933C9F2920"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A05E029F-B2AB-80F6-DE43-AEEF6BDD186A" name="TBL_CANCIONES_FKv4">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:04:07 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93989EF9-5F3C-CDD1-7509-4D68D6F1F993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4349FDC9-9FD5-A23B-A150-4E3941D950A7" name="TBL_MP3_FK">
+<createdBy>White</createdBy>
+<createdTime>2018-10-28 20:20:01 UTC</createdTime>
+<ownerDesignName>DZ-DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E0C6604-8108-5A96-DE9D-79B9BB3CAC07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
