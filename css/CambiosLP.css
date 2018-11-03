@@ -1,0 +1,31 @@
+
+.pb_gradient_v1:before {
+    background: url() !important ;
+}
+
+.pb_cover, .pb_cover_v1, .pb_cover_v2, .pb_cover_v3, .pb_cover_v4 {
+    position: relative;
+    height: 113vh;
+}
+#pb-navbar{
+    background-color: white !important;
+    padding: 6px !important;
+}
+
+
+.borde{
+    border-radius: 30px !important;
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    line-height: 1.33;
+}
+
+@media (min-width: 992px){
+    .col-lg-9 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 68%;
+    }
+}
