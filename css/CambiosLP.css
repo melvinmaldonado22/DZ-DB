@@ -1,3 +1,6 @@
+.body{
+    font-family: Roboto,sans-serif;
+}
 
 .pb_gradient_v1:before {
     background: url() !important ;
@@ -5,19 +8,48 @@
 
 .pb_cover, .pb_cover_v1, .pb_cover_v2, .pb_cover_v3, .pb_cover_v4 {
     position: relative;
-    height: 113vh;
+    height: 106vh;
 }
 #pb-navbar{
     background-color: white !important;
     padding: 0px !important;
 }
 
+.btn-outline-primary {
+    color: #4696b9;
+    background-color: transparent;
+    background-image: none;
+    border-color: #4696b9;
+    font-weight: 1000;
+}
+
+.btn-outline-primary:hover {
+    color: #03608A;
+    background-color: transparent;
+    background-image: none;
+    border-color: #03608A;
+    font-weight: 1000;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #03608a;
+    border-color: #03608a;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2692B7;
+    border-color: #2692B7;
+}
 
 .borde{
     border-radius: 30px !important;
     font-family: Roboto,sans-serif;
     font-size: 15px;
     line-height: 1.33;
+    padding: 7px 18px;
+    margin-left: -24px;
 }
 
 @media (min-width: 992px){
@@ -26,7 +58,7 @@
         -webkit-flex: 0 0 75%;
         -ms-flex: 0 0 75%;
         flex: 0 0 75%;
-        max-width: 68%;
+        max-width: 57%;
     }
 }
 
@@ -61,8 +93,42 @@ body {
 
 #precio{
     color: #fff;
-    font-size: 46px;
+    font-size: 43px;
     font-weight: 700;
     margin: auto;
     max-width: 650px;
+    margin-top: 100px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #2692B7;
+    border-color: #2692B7;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 49px;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #2692B7;
+    border-color: #2692B7;
+}
+
+.btn_centro{
+    width: 145px;
+    height: 149px;
+    position: absolute;
+    top: 104%;
+    left: 38%;
+}
+
+.pb_section {
+    padding: 0em 0;
+}
+
+.celular{
+    position: absolute;
+    top: 490px;
+    right: 678px;
 }
