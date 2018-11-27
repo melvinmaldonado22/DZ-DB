@@ -129,6 +129,42 @@ body {
 
 .celular{
     position: absolute;
-    top: 490px;
-    right: 678px;
+    top: 497px;
+    right: 621px;
+}
+
+.pb_slant-light:after, .pb_slant-white:after {
+    content: "";
+    position: absolute;
+    bottom: -174px;
+    left: -50px;
+    height: 200px;
+    width: 130%;
+    background-color: #ffff;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    z-index: 10;
+}
+
+.tamanio-celular{
+    width: 357px;
+}
+
+.txt{
+    float: right;
+}
+
+.pb_slant-light2:after {
+    content: "";
+    position: absolute;
+    bottom: -174px;
+    left: -50px;
+    height: 200px;
+    width: 130%;
+    background-color: #ffff;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    z-index: 10;
 }
