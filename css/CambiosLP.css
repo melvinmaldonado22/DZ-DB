@@ -13,6 +13,7 @@
 #pb-navbar{
     background-color: white !important;
     padding: 0px !important;
+    height: 73px !important;
 }
 
 .btn-outline-primary {
@@ -62,14 +63,10 @@
     }
 }
 
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 0.5;
-    color: #868e96;
-    background-color: #fff;
+@media (max-width: 1559px) and (min-width: 1160px){
+.wrapper-winter {
+    background-image: url("../img/LP_1.jpg");
+}
 }
 
 .nav1 {
@@ -151,8 +148,17 @@ body {
     width: 357px;
 }
 
-.txt{
+.txt1{
     float: right;
+    width: 459px;
+    margin-right: 179px;
+    margin-top: 69px;
+}
+
+.txt2{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 292px;
 }
 
 .pb_slant-light2:after {
@@ -167,4 +173,71 @@ body {
     -ms-transform: rotate(-4deg);
     transform: rotate(-4deg);
     z-index: 10;
+}
+
+.p1{
+    font-size: 19px !important;
+    font-weight: 300 !important;
+    line-height: 30px !important;
+    color: #51515A !important;
+}
+
+.p2{
+    font-size: 19px !important;
+    font-weight: 300 !important;
+    line-height: 30px !important;
+    color: #51515A !important;
+    width: 451px !important;
+}
+
+.h2{
+    color: #2692B7;
+}
+
+#img2{
+    float: left;
+    width: 1177px;
+    margin-top: 190px;
+}
+
+.bg-light {
+    background-color: #ffff !important;
+}
+.footer{
+    background-color: #32323d !important;
+}
+
+@media (max-width: 1559px) and (min-width: 1160px){
+    .homepage-flow {
+        background-image: url("../img/LP_3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 800px;
+    }
+}
+
+.flow-logo {
+    background-image: url("../img/flow-logoLP.png");
+    height: 50px;
+    margin: 0 auto;
+    width: 155px;
+}
+
+#h2-1{
+    font-size: 36px;
+    font-weight: 700 !important;
+    color: #ffff;
+    margin-top: 48px;
+    text-align: center;
+}
+
+#p3{
+    color: #ffff;
+    margin-top: 27px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 463px;
+    margin-left: 122px;
 }
